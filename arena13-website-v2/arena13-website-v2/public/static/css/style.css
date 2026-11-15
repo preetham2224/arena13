@@ -1,0 +1,1039 @@
+:root{--bg:#09090a;--surface:#111114;--surface-2:#17171b;--text:#f5f2ea;--muted:#a6a39c;--line:#29292e;--accent:#ffb000;--accent-2:#ffd35c;--radius:22px;--max:1240px}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,sans-serif;line-height:1.55}a{color:inherit;text-decoration:none}button,input{font:inherit}.announcement{height:34px;background:var(--accent);color:#0b0b0b;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:900;letter-spacing:.14em}.announcement span{margin-right:8px}.site-header{height:82px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding:0 4vw;position:sticky;top:0;z-index:50;background:rgba(9,9,10,.9);backdrop-filter:blur(18px)}.brand{display:flex;align-items:center;gap:10px}.brand-mark{width:42px;height:42px;border:2px solid var(--accent);display:grid;place-items:center;font-family:"Barlow Condensed";font-size:24px;font-weight:900;color:var(--accent);transform:skew(-8deg)}.brand strong,.brand small{display:block;line-height:.9}.brand strong{font-family:"Barlow Condensed";font-size:25px;letter-spacing:.03em}.brand small{font-size:8px;letter-spacing:.28em;color:var(--accent);margin-top:5px}.nav{display:flex;align-items:center;gap:27px;font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.07em}.nav a{color:#c8c5bd;transition:.2s}.nav a:hover{color:#fff}.nav-cta{background:var(--accent);color:#111!important;padding:12px 16px;border-radius:999px}.menu-btn{display:none;border:0;background:none;color:#fff;font-size:24px}.hero{max-width:var(--max);margin:auto;padding:78px 28px 86px;display:grid;grid-template-columns:1fr .85fr;gap:60px;align-items:center}.hero h1,.page-hero h1,.detail-hero h1,.error-page h1,.visit-cta h2,.dark-band h2{font-family:"Barlow Condensed";font-weight:900;line-height:.83;letter-spacing:-.025em;text-transform:uppercase}.hero h1{font-size:clamp(70px,9vw,132px);margin:20px 0 28px}.hero h1 span,.page-hero h1 span,.detail-hero h1 span,.error-page h1 span,.visit-cta h2 span,.dark-band h2 span{color:var(--accent)}.eyebrow,.section-kicker{font-size:10px;font-weight:900;letter-spacing:.18em;text-transform:uppercase;color:var(--accent)}.hero-text{max-width:620px;color:var(--muted);font-size:17px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin:30px 0}.btn{display:inline-flex;align-items:center;justify-content:center;gap:12px;padding:14px 20px;border-radius:999px;font-size:11px;font-weight:900;letter-spacing:.08em;text-transform:uppercase;transition:.2s}.btn-primary{background:var(--accent);color:#101010}.btn-primary:hover{background:var(--accent-2);transform:translateY(-2px)}.btn-ghost{border:1px solid #44454a;color:#fff}.btn-ghost:hover{border-color:#777}.hero-stats{display:flex;gap:36px;border-top:1px solid var(--line);padding-top:24px;margin-top:34px}.hero-stats strong{display:block;font-family:"Barlow Condensed";font-size:35px;line-height:1}.hero-stats span{display:block;color:#777;font-size:10px;text-transform:uppercase;letter-spacing:.1em;margin-top:5px}.image-slot{background:linear-gradient(135deg,#1a1a1e,#0e0e10);border:1px solid #303035;position:relative;overflow:hidden}.image-slot:before{content:"";position:absolute;inset:0;background:linear-gradient(135deg,transparent 0 48%,rgba(255,176,0,.08) 49% 50%,transparent 51%)}.image-slot-label,.image-slot>span{position:absolute;inset:0;display:grid;place-items:center;color:#69676a;font-size:10px;font-weight:900;letter-spacing:.18em;text-transform:uppercase}.hero-visual{height:560px;border-radius:30px;overflow:hidden;position:relative;background:linear-gradient(135deg,#19191d,#0d0d0f);border:1px solid #303035}.hero-visual:after{content:"";position:absolute;inset:20px;border:1px solid rgba(255,176,0,.28);pointer-events:none}.hero-badge{position:absolute;z-index:2;right:28px;bottom:28px;width:126px;height:126px;background:var(--accent);color:#111;border-radius:50%;display:grid;place-items:center;text-align:center;font-family:"Barlow Condensed";font-weight:900;font-size:25px;line-height:.78;transform:rotate(8deg)}.hero-badge span{font-size:17px}.marquee{border-block:1px solid var(--line);background:#0d0d0f;display:flex;overflow:hidden;white-space:nowrap}.marquee div{font-family:"Barlow Condensed";font-size:21px;font-weight:900;letter-spacing:.08em;padding:17px 38px;border-right:1px solid var(--line)}.marquee div:nth-child(even){color:var(--accent)}.section{max-width:var(--max);margin:auto;padding:105px 28px}.intro-section{padding-bottom:55px}.split-heading{display:grid;grid-template-columns:1.2fr .8fr;gap:60px;align-items:end;margin-top:24px}.split-heading h2,.section-heading h2,.detail-content h2,.story-copy h2,.contact-note h2{font-family:"Barlow Condensed";font-size:clamp(56px,6vw,88px);line-height:.86;text-transform:uppercase;margin:0}.split-heading h2 span,.section-heading h2 span,.detail-content h2 span,.story-copy h2 span,.contact-note h2 span{color:var(--accent)}.split-heading p,.section-heading>p,.dark-copy p,.story-copy p,.event-copy p,.contact-note p{color:var(--muted);font-size:15px}.text-link,.card-link{font-size:11px;font-weight:900;letter-spacing:.09em;color:var(--accent);text-transform:uppercase}.text-link:hover,.card-link:hover{color:#fff}.section-heading{display:flex;align-items:end;justify-content:space-between;gap:30px;margin-bottom:36px}.section-heading h2{margin-top:12px}.featured-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.experience-card,.game-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;transition:.25s}.experience-card:hover,.game-card:hover{transform:translateY(-5px);border-color:#505057}.experience-image{height:300px}.experience-image b,.game-image b{position:absolute;right:13px;top:13px;background:var(--accent);color:#111;border-radius:10px;padding:8px 10px;font-family:"Barlow Condensed";font-size:22px;line-height:.8}.experience-image small,.game-image small{font-family:Inter;font-size:8px;font-weight:800}.experience-body{padding:20px}.game-meta{display:flex;justify-content:space-between;gap:10px;color:#777;font-size:9px;font-weight:800;text-transform:uppercase;letter-spacing:.1em}.experience-body h3,.game-body h3{font-family:"Barlow Condensed";font-size:34px;line-height:.9;text-transform:uppercase;margin:12px 0}.experience-body p,.game-body p{color:var(--muted);font-size:13px;margin:0 0 18px}.dark-band{background:#121214;border-block:1px solid var(--line)}.dark-band-inner{display:grid;grid-template-columns:1fr .8fr;gap:80px;align-items:end}.dark-band h2{font-size:clamp(65px,7vw,104px);margin:18px 0 0}.mini-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:30px}.mini-stats div{border-top:1px solid #36363a;padding-top:12px}.mini-stats strong{font-family:"Barlow Condensed";font-size:32px;display:block}.mini-stats span{color:#777;font-size:9px;text-transform:uppercase;letter-spacing:.1em}.occasion-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.occasion-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}.occasion-card:hover{border-color:#505057}.occasion-image{height:220px}.occasion-card>div:last-child{padding:20px}.occasion-card h3{font-family:"Barlow Condensed";font-size:38px;text-transform:uppercase;margin:8px 0}.occasion-card p{color:var(--muted);font-size:13px}.visit-cta{background:var(--accent);color:#111}.visit-cta-inner{max-width:var(--max);margin:auto;padding:105px 28px}.visit-cta .eyebrow{color:#111}.visit-cta h2{font-size:clamp(70px,8vw,120px);margin:16px 0}.visit-cta h2 span{color:#111;text-decoration:underline;text-decoration-thickness:6px}.visit-cta p{max-width:500px;color:#29200b}.visit-cta .btn-primary{background:#111;color:#fff}.visit-cta .btn-ghost{border-color:#111;color:#111}.page-hero{max-width:var(--max);margin:auto;padding:100px 28px 80px;border-bottom:1px solid var(--line)}.page-hero h1{font-size:clamp(75px,10vw,145px);margin:20px 0}.page-hero p{max-width:650px;color:var(--muted);font-size:17px}.activities-list{padding-top:60px}.filter-row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:28px}.filter{border:1px solid var(--line);background:transparent;color:#aaa;padding:9px 15px;border-radius:999px;font-size:10px;font-weight:900;text-transform:uppercase;letter-spacing:.08em;cursor:pointer}.filter.active,.filter:hover{background:var(--accent);border-color:var(--accent);color:#111}.games-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.game-card.hidden{display:none}.game-image{display:block;height:280px}.game-image b{font-size:21px}.game-body{padding:19px}.game-footer{display:flex;justify-content:space-between;align-items:center;border-top:1px solid var(--line);padding-top:15px}.game-footer strong{font-family:"Barlow Condensed";font-size:28px}.info-strip{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding-top:0;padding-bottom:0}.info-strip>div{padding:35px 25px;border-right:1px solid var(--line)}.info-strip>div:last-child{border-right:0}.info-strip span{color:var(--accent);font-family:"Barlow Condensed";font-size:30px}.info-strip strong{display:block;font-family:"Barlow Condensed";font-size:26px;text-transform:uppercase}.info-strip p{color:var(--muted);font-size:12px}.detail-hero{max-width:var(--max);margin:auto;padding:80px 28px 90px;display:grid;grid-template-columns:1fr .9fr;gap:60px;align-items:center}.detail-copy h1{font-size:clamp(70px,8vw,118px);margin:20px 0 10px}.detail-tagline{font-family:"Barlow Condensed";font-size:28px;color:var(--accent);text-transform:uppercase;margin:0 0 14px}.detail-copy>p:not(.detail-tagline){color:var(--muted);font-size:16px;max-width:650px}.detail-price{font-family:"Barlow Condensed";font-size:54px;font-weight:900;margin-top:25px}.detail-price small{font-family:Inter;font-size:11px;color:#777}.detail-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: contain;
+    background: #111114;
+}.detail-content{display:grid;grid-template-columns:1fr 360px;gap:70px;border-top:1px solid var(--line)}.detail-main>p{max-width:700px;color:var(--muted);font-size:17px;margin:22px 0 30px}.highlight-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.highlight-grid div{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:18px}.highlight-grid span{color:var(--accent);display:block;margin-bottom:10px}.highlight-grid strong{font-family:"Barlow Condensed";font-size:21px;text-transform:uppercase;line-height:1}.detail-card{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:25px;height:max-content}.detail-card>span{font-size:9px;font-weight:900;letter-spacing:.14em;color:var(--accent)}.detail-card h3{font-family:"Barlow Condensed";font-size:34px;text-transform:uppercase;margin:20px 0 8px}.detail-card p{color:var(--muted);font-size:13px}.price-line{display:flex;justify-content:space-between;gap:15px;border-top:1px solid var(--line);padding-top:13px;margin-top:13px;font-size:11px}.price-line strong{font-size:12px}.safety-note{background:#121214;border:1px solid var(--line);border-radius:24px;margin-bottom:80px}.safety-note h2{font-family:"Barlow Condensed";font-size:68px;text-transform:uppercase;margin:15px 0}.safety-note h2 span{color:var(--accent)}.safety-note p{max-width:800px;color:var(--muted)}.story-section{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}.story-image{height:520px;border-radius:26px}.story-copy h2{margin:18px 0 25px}.values{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.value{padding:28px;border:1px solid var(--line);border-radius:20px;background:var(--surface)}.value span{font-family:"Barlow Condensed";font-size:34px;color:var(--accent)}.value h3{font-family:"Barlow Condensed";font-size:32px;margin:12px 0 6px}.value p{color:var(--muted);font-size:13px}.event-list{display:grid;gap:22px}.event-panel{display:grid;grid-template-columns:.85fr 1fr;gap:0;background:var(--surface);border:1px solid var(--line);border-radius:24px;overflow:hidden}.event-image{min-height:390px}.event-copy{padding:45px}.event-copy h2{font-family:"Barlow Condensed";font-size:65px;line-height:.85;text-transform:uppercase;margin:15px 0}.event-copy ul{padding-left:20px;color:#c6c2ba}.event-copy li{margin:8px 0}.compact .visit-cta-inner{padding:80px 28px}.visit-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}.visit-card{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:24px}.visit-card>span,.contact-card>span{font-size:9px;letter-spacing:.15em;color:var(--accent);font-weight:900}.visit-card strong{display:block;font-family:"Barlow Condensed";font-size:32px;text-transform:uppercase;margin:15px 0 8px}.visit-card p,.contact-card p{color:var(--muted);font-size:12px}.checklist{display:grid;grid-template-columns:.9fr 1.1fr;gap:80px}.checklist h2{font-family:"Barlow Condensed";font-size:80px;line-height:.85;text-transform:uppercase;margin:15px 0}.checklist h2 span{color:var(--accent)}.check-items{display:grid;gap:10px}.check-items div{display:grid;grid-template-columns:40px 1fr;gap:15px;border-bottom:1px solid var(--line);padding:17px 0}.check-items strong{font-family:"Barlow Condensed";font-size:24px;color:var(--accent)}.check-items p{margin:0;color:var(--muted);font-size:13px}.faq-list{max-width:900px}.faq-list details{border-top:1px solid var(--line);padding:20px 0}.faq-list details:last-child{border-bottom:1px solid var(--line)}.faq-list summary{list-style:none;cursor:pointer;font-family:"Barlow Condensed";font-size:30px;text-transform:uppercase;display:flex;justify-content:space-between}.faq-list summary::-webkit-details-marker{display:none}.faq-list summary span{color:var(--accent)}.faq-list details p{color:var(--muted);max-width:750px;font-size:14px}.contact-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.contact-card{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:28px}.contact-card h3{font-family:"Barlow Condensed";font-size:31px;text-transform:uppercase;margin:15px 0 5px}.contact-note{background:#121214;border-radius:25px;margin-bottom:80px}.contact-note h2{margin:16px 0}.error-page{max-width:var(--max);margin:auto;padding:140px 28px}.error-page h1{font-size:clamp(90px,12vw,170px);margin:20px 0}.error-page p{color:var(--muted);max-width:500px}.site-footer{border-top:1px solid var(--line);background:#070708}.footer-main{max-width:var(--max);margin:auto;padding:65px 28px;display:grid;grid-template-columns:1.5fr 1fr 1fr 1.3fr;gap:40px}.footer-brand{font-family:"Barlow Condensed";font-size:31px;font-weight:900}.footer-brand span{color:var(--accent)}.footer-main p,.footer-col span{color:#777;font-size:12px}.footer-col{display:flex;flex-direction:column;gap:9px;font-size:12px}.footer-col strong{font-size:10px;text-transform:uppercase;letter-spacing:.13em;color:var(--accent);margin-bottom:5px}.footer-col a:hover{color:var(--accent)}.footer-bottom{border-top:1px solid var(--line);max-width:var(--max);margin:auto;padding:18px 28px;display:flex;justify-content:space-between;gap:20px;color:#666;font-size:10px;text-transform:uppercase;letter-spacing:.08em}
+@media(max-width:1000px){.nav{gap:14px}.hero{grid-template-columns:1fr}.hero-visual{height:450px}.featured-grid,.games-grid{grid-template-columns:repeat(2,1fr)}.dark-band-inner,.detail-content,.story-section,.checklist{grid-template-columns:1fr}.occasion-grid{grid-template-columns:1fr 1fr}.visit-grid{grid-template-columns:1fr 1fr}.footer-main{grid-template-columns:1fr 1fr}.event-panel{grid-template-columns:1fr}.event-image{min-height:300px}}
+@media(max-width:720px){.site-header{height:72px;padding:0 18px}.menu-btn{display:block}.nav{display:none;position:absolute;left:12px;right:12px;top:68px;background:#111114;border:1px solid var(--line);border-radius:16px;padding:15px;flex-direction:column;align-items:stretch;gap:4px;box-shadow:0 20px 60px #000}.nav.open{display:flex}.nav a{padding:12px}.hero{padding:55px 18px}.hero h1{font-size:76px}.hero-visual{height:390px}.section,.page-hero,.detail-hero,.visit-cta-inner{padding-left:18px;padding-right:18px}.section{padding-top:75px;padding-bottom:75px}.split-heading,.featured-grid,.games-grid,.occasion-grid,.values,.contact-grid,.visit-grid,.info-strip{grid-template-columns:1fr}.section-heading{align-items:start;flex-direction:column}.dark-band h2{font-size:65px}.mini-stats{grid-template-columns:1fr 1fr 1fr}.detail-hero{padding-top:55px;grid-template-columns:1fr}.detail-image{height:380px;grid-row:1}.detail-copy h1{font-size:72px}.highlight-grid{grid-template-columns:1fr}.event-copy{padding:28px}.event-copy h2{font-size:52px}.page-hero h1{font-size:76px}.footer-main{grid-template-columns:1fr 1fr;padding-left:18px;padding-right:18px}.footer-bottom{padding-left:18px;padding-right:18px;flex-direction:column}.announcement{font-size:8px}.hero-stats{gap:16px}.hero-stats strong{font-size:29px}.marquee div{padding:14px 25px;font-size:18px}.safety-note{margin:0 18px 50px}.error-page{padding:100px 18px}.checklist h2{font-size:65px}}
+.image-slot img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: contain;
+    background: #111114;
+}
+
+/* =========================================================
+   THE PIT LANE — FOOD & BEVERAGE
+========================================================= */
+
+.food-hero {
+    position: relative;
+    min-height: 650px;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    background:
+        linear-gradient(
+            135deg,
+            rgba(10, 10, 10, 0.98),
+            rgba(10, 10, 10, 0.86)
+        );
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.food-hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(
+            circle at 75% 30%,
+            rgba(255, 193, 7, 0.12),
+            transparent 32%
+        );
+    pointer-events: none;
+}
+
+.food-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(
+            90deg,
+            rgba(8, 8, 8, 0.96) 0%,
+            rgba(8, 8, 8, 0.78) 45%,
+            rgba(8, 8, 8, 0.38) 100%
+        );
+}
+
+.food-hero-content {
+    position: relative;
+    z-index: 2;
+    width: min(1180px, calc(100% - 40px));
+    margin: 0 auto;
+    padding: 110px 0 90px;
+}
+
+.food-hero h1 {
+    margin: 12px 0 0;
+    font-size: clamp(70px, 10vw, 150px);
+    line-height: 0.85;
+    letter-spacing: -0.045em;
+    font-weight: 800;
+}
+
+.food-hero h1 span {
+    color: var(--accent);
+}
+
+.food-hero-tagline {
+    margin: 28px 0 0;
+    font-size: clamp(20px, 2.5vw, 32px);
+    font-weight: 800;
+    letter-spacing: 0.14em;
+}
+
+.food-hero-description {
+    max-width: 600px;
+    margin: 20px 0 0;
+    color: rgba(255, 255, 255, 0.68);
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.food-hero-stats {
+    display: flex;
+    gap: 50px;
+    margin-top: 48px;
+}
+
+.food-hero-stats div {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.food-hero-stats strong {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 42px;
+    line-height: 1;
+}
+
+.food-hero-stats span {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+/* =========================================================
+   FOOD INTRO
+========================================================= */
+
+.food-intro {
+    padding-top: 110px;
+    padding-bottom: 100px;
+}
+
+.food-intro-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    align-items: end;
+}
+
+.food-intro h2,
+.food-stalls-section h2,
+.food-cta h2 {
+    margin: 14px 0 0;
+    font-size: clamp(52px, 7vw, 90px);
+    line-height: 0.9;
+    letter-spacing: -0.035em;
+}
+
+.food-intro h2 span,
+.food-stalls-section h2 span,
+.food-cta h2 span {
+    color: var(--accent);
+}
+
+.food-intro-copy {
+    max-width: 620px;
+}
+
+.food-intro-copy p {
+    margin: 0 0 18px;
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 17px;
+    line-height: 1.75;
+}
+
+.food-intro-copy strong {
+    color: var(--text);
+}
+
+
+/* =========================================================
+   SECTION HEADING
+========================================================= */
+
+.section-heading-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 30px;
+    margin-bottom: 55px;
+}
+
+.food-count {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+
+.food-count strong {
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 72px;
+    line-height: 0.8;
+}
+
+.food-count span {
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+    color: rgba(255, 255, 255, 0.45);
+}
+
+
+/* =========================================================
+   FOOD STALL GRID
+========================================================= */
+
+.food-stalls-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 24px;
+}
+
+.food-stall-card {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    border-radius: 24px;
+    background: rgba(255, 255, 255, 0.025);
+    transition:
+        transform 0.3s ease,
+        border-color 0.3s ease,
+        background 0.3s ease;
+}
+
+.food-stall-card:hover {
+    transform: translateY(-7px);
+    border-color: rgba(255, 193, 7, 0.55);
+    background: rgba(255, 255, 255, 0.045);
+}
+
+.food-stall-image {
+    position: relative;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    background:
+        linear-gradient(
+            135deg,
+            rgba(255, 193, 7, 0.08),
+            rgba(255, 255, 255, 0.02)
+        );
+}
+
+.food-stall-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.food-stall-card:hover .food-stall-image img {
+    transform: scale(1.05);
+}
+
+.food-image-placeholder {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+}
+
+.food-image-placeholder span {
+    padding: 10px 15px;
+    border: 1px dashed rgba(255, 255, 255, 0.22);
+    border-radius: 999px;
+    color: rgba(255, 255, 255, 0.32);
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 0.16em;
+}
+
+.food-stall-number {
+    position: absolute;
+    top: 18px;
+    left: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: var(--accent);
+    color: #111;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.food-stall-body {
+    padding: 25px 25px 23px;
+}
+
+.food-stall-type {
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.38);
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 0.15em;
+}
+
+.food-stall-body h3 {
+    margin: 0;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 34px;
+    line-height: 1;
+    letter-spacing: 0.01em;
+}
+
+.food-stall-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+    padding-top: 17px;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    color: rgba(255, 255, 255, 0.38);
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: 0.13em;
+}
+
+.food-arrow {
+    color: var(--accent);
+    font-size: 20px;
+    transition: transform 0.25s ease;
+}
+
+.food-stall-card:hover .food-arrow {
+    transform: translate(4px, -4px);
+}
+
+
+/* =========================================================
+   FOOD CTA
+========================================================= */
+
+.food-cta {
+    margin-top: 110px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.07);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+    background:
+        radial-gradient(
+            circle at center,
+            rgba(255, 193, 7, 0.08),
+            transparent 45%
+        );
+}
+
+.food-cta-inner {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.food-cta p {
+    margin: 22px 0 32px;
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 18px;
+}
+
+
+/* =========================================================
+   FOOD VISIT STRIP
+========================================================= */
+
+.food-visit-strip {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.food-visit-strip h3 {
+    margin: 12px 0 0;
+    max-width: 650px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: clamp(30px, 4vw, 50px);
+    line-height: 0.95;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media (max-width: 900px) {
+
+    .food-intro-grid {
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .food-stalls-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .food-hero {
+        min-height: 600px;
+    }
+
+}
+
+
+@media (max-width: 640px) {
+
+    .food-hero-content {
+        width: min(100% - 30px, 1180px);
+        padding: 90px 0 65px;
+    }
+
+    .food-hero h1 {
+        font-size: 72px;
+    }
+
+    .food-hero-stats {
+        gap: 25px;
+        flex-wrap: wrap;
+    }
+
+    .food-hero-stats strong {
+        font-size: 34px;
+    }
+
+    .food-intro {
+        padding-top: 75px;
+        padding-bottom: 70px;
+    }
+
+    .food-stalls-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .section-heading-row {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .food-count {
+        display: none;
+    }
+
+    .food-cta {
+        margin-top: 70px;
+        padding-top: 85px;
+        padding-bottom: 85px;
+    }
+
+    .food-visit-strip {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+}
+
+/* =========================================================
+   HOMEPAGE — THE PIT LANE TEASER
+========================================================= */
+
+.home-food-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.home-food-top {
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 70px;
+    align-items: end;
+    margin-bottom: 55px;
+}
+
+.home-food-top h2 {
+    margin: 14px 0 0;
+    font-size: clamp(52px, 7vw, 90px);
+    line-height: 0.88;
+    letter-spacing: -0.035em;
+}
+
+.home-food-top h2 span {
+    color: var(--accent);
+}
+
+.home-food-copy {
+    max-width: 520px;
+}
+
+.home-food-copy p {
+    margin: 0 0 25px;
+    color: rgba(255, 255, 255, 0.58);
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.home-food-cards {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 22px;
+}
+
+.home-food-card {
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 22px;
+    background: rgba(255, 255, 255, 0.025);
+    transition:
+        transform 0.3s ease,
+        border-color 0.3s ease;
+}
+
+.home-food-card:hover {
+    transform: translateY(-6px);
+    border-color: rgba(255, 193, 7, 0.5);
+}
+
+.home-food-image {
+    position: relative;
+    display: block;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+}
+
+.home-food-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.home-food-card:hover .home-food-image img {
+    transform: scale(1.05);
+}
+
+.home-food-number {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: var(--accent);
+    color: #111;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.home-food-card-body {
+    padding: 22px;
+}
+
+.home-food-card-body > span {
+    display: block;
+    margin-bottom: 8px;
+    color: rgba(255, 255, 255, 0.35);
+    font-size: 9px;
+    font-weight: 800;
+    letter-spacing: 0.15em;
+}
+
+.home-food-card-body h3 {
+    margin: 0;
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 30px;
+    line-height: 1;
+}
+
+.home-food-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 35px;
+    padding-top: 25px;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.home-food-bottom div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.home-food-bottom strong {
+    font-size: 12px;
+    letter-spacing: 0.1em;
+}
+
+.home-food-bottom span {
+    color: rgba(255, 255, 255, 0.35);
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 0.13em;
+}
+
+
+@media (max-width: 900px) {
+
+    .home-food-top {
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .home-food-cards {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+}
+
+
+@media (max-width: 640px) {
+
+    .home-food-section {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .home-food-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .home-food-bottom {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .home-food-bottom div {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+
+}
+
+.food-stall-description {
+    margin: 15px 0 0;
+    min-height: 72px;
+    color: rgba(255, 255, 255, 0.58);
+    font-size: 14px;
+    line-height: 1.65;
+}
+
+/* Light theme — a clean motorsport ivory with deep navy text and the existing gold accent. */
+.theme-toggle{margin-left:20px;display:inline-flex;align-items:center;gap:7px;border:1px solid var(--line);border-radius:999px;padding:9px 12px;background:transparent;color:var(--text);font-size:9px;font-weight:900;letter-spacing:.09em;cursor:pointer;transition:.2s}.theme-toggle:hover{border-color:var(--accent);color:var(--accent)}.theme-toggle-icon{font-size:15px;line-height:1}
+html[data-theme="light"]{--bg:#f5f6f8;--surface:#ffffff;--surface-2:#edf0f4;--text:#152033;--muted:#526174;--line:#d5dbe4;--accent:#e69500;--accent-2:#c98100}
+html[data-theme="light"] .site-header{background:rgba(245,246,248,.9)}
+html[data-theme="light"] .nav a{color:#344154}html[data-theme="light"] .nav a:hover{color:#152033}html[data-theme="light"] .nav-cta{color:#152033!important}
+html[data-theme="light"] .btn-primary,html[data-theme="light"] .hero-badge,html[data-theme="light"] .experience-image b,html[data-theme="light"] .game-image b,html[data-theme="light"] .food-stall-number,html[data-theme="light"] .home-food-number{color:#152033}
+html[data-theme="light"] .btn-ghost{border-color:#aeb8c6;color:#152033}html[data-theme="light"] .btn-ghost:hover{border-color:#66768a}
+html[data-theme="light"] .hero-stats span,html[data-theme="light"] .game-meta,html[data-theme="light"] .mini-stats span,html[data-theme="light"] .detail-price small{color:#66768a}
+html[data-theme="light"] .image-slot,html[data-theme="light"] .hero-visual{background:linear-gradient(135deg,#e9edf2,#dce3eb);border-color:#cbd3de}html[data-theme="light"] .image-slot-label,html[data-theme="light"] .image-slot>span{color:#657386}
+html[data-theme="light"] .marquee,html[data-theme="light"] .dark-band,html[data-theme="light"] .safety-note,html[data-theme="light"] .contact-note{background:#e9edf2}
+html[data-theme="light"] .mini-stats div{border-color:#c7d0dc}html[data-theme="light"] .experience-card:hover,html[data-theme="light"] .game-card:hover,html[data-theme="light"] .occasion-card:hover{border-color:#9caaba}
+html[data-theme="light"] .visit-cta{color:#152033}html[data-theme="light"] .visit-cta .eyebrow,html[data-theme="light"] .visit-cta h2 span,html[data-theme="light"] .visit-cta .btn-ghost{color:#152033}html[data-theme="light"] .visit-cta .btn-primary{background:#152033;color:#fff}html[data-theme="light"] .visit-cta p{color:#4c3510}
+html[data-theme="light"] .filter{color:#516074}html[data-theme="light"] .filter.active,html[data-theme="light"] .filter:hover{color:#152033}
+html[data-theme="light"] .detail-image img,html[data-theme="light"] .image-slot img{background:#e9edf2}
+html[data-theme="light"] .event-copy ul{color:#455468}
+html[data-theme="light"] .site-footer{background:#162132;color:#f5f6f8}html[data-theme="light"] .footer-main p,html[data-theme="light"] .footer-col span,html[data-theme="light"] .footer-bottom{color:#aeb9c7}
+html[data-theme="light"] .food-hero{background:linear-gradient(135deg,#edf1f5,#dfe6ed);border-color:#ccd5df}html[data-theme="light"] .food-hero-overlay{background:linear-gradient(90deg,rgba(245,246,248,.97),rgba(245,246,248,.82) 45%,rgba(245,246,248,.42))}html[data-theme="light"] .food-hero-description,html[data-theme="light"] .food-hero-stats span,html[data-theme="light"] .food-intro-copy p,html[data-theme="light"] .food-count span,html[data-theme="light"] .food-stall-type,html[data-theme="light"] .food-stall-footer,html[data-theme="light"] .food-cta p,html[data-theme="light"] .home-food-copy p,html[data-theme="light"] .home-food-card-body>span,html[data-theme="light"] .home-food-bottom span,html[data-theme="light"] .food-stall-description{color:#526174}
+html[data-theme="light"] .food-stall-card,html[data-theme="light"] .home-food-card{background:#fff;border-color:#d5dbe4}html[data-theme="light"] .food-stall-card:hover,html[data-theme="light"] .home-food-card:hover{background:#fff;border-color:#e69500}html[data-theme="light"] .food-stall-footer,html[data-theme="light"] .home-food-bottom,html[data-theme="light"] .food-cta{border-color:#d5dbe4}html[data-theme="light"] .food-image-placeholder span{border-color:#aeb8c6;color:#647386}html[data-theme="light"] .food-cta{background:radial-gradient(circle at center,rgba(230,149,0,.12),transparent 45%)}
+@media(max-width:1000px){.theme-toggle{margin-left:auto;margin-right:14px}}
+@media(max-width:720px){.theme-toggle{margin-right:10px;padding:8px 10px}.theme-toggle-label{display:none}html[data-theme="light"] .nav{background:#fff;box-shadow:0 20px 60px rgba(21,32,51,.14)}}
+/* Give the large display type a touch more air in the light palette, avoiding tight letter collisions. */
+html[data-theme="light"] .hero h1,html[data-theme="light"] .page-hero h1,html[data-theme="light"] .detail-hero h1,html[data-theme="light"] .error-page h1,html[data-theme="light"] .visit-cta h2,html[data-theme="light"] .dark-band h2{line-height:.9}
+@media(max-width:900px){.site-header{padding:0 18px}.menu-btn{display:block}.nav{display:none;position:absolute;left:12px;right:12px;top:68px;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:15px;flex-direction:column;align-items:stretch;gap:4px;box-shadow:0 20px 60px rgba(0,0,0,.3)}.nav.open{display:flex}.nav a{padding:12px}.theme-toggle{margin-left:auto}}
+
+/* Responsive layout safeguards for tablets and phones. */
+@media (max-width: 900px) {
+  .detail-content,
+  .story-section,
+  .checklist {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 36px;
+  }
+
+  .detail-content {
+    gap: 28px;
+  }
+
+  .visit-grid,
+  .info-strip {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .info-strip > div:nth-child(2) {
+    border-right: 0;
+  }
+
+  .info-strip > div:last-child {
+    grid-column: 1 / -1;
+    border-top: 1px solid var(--line);
+  }
+
+  .safety-note,
+  .contact-note {
+    margin-left: 18px;
+    margin-right: 18px;
+  }
+}
+
+@media (max-width: 640px) {
+  html {
+    scroll-padding-top: 80px;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .announcement {
+    min-height: 34px;
+    height: auto;
+    padding: 7px 12px;
+    text-align: center;
+    line-height: 1.4;
+    letter-spacing: .08em;
+  }
+
+  .site-header {
+    height: 68px;
+    padding: 0 14px;
+  }
+
+  .brand {
+    gap: 8px;
+    min-width: 0;
+  }
+
+  .brand-mark {
+    width: 36px;
+    height: 36px;
+    font-size: 21px;
+  }
+
+  .brand strong {
+    font-size: 22px;
+  }
+
+  .theme-toggle {
+    margin: 0 6px 0 auto;
+    padding: 8px;
+  }
+
+  .menu-btn {
+    flex: 0 0 40px;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+  }
+
+  .nav {
+    top: 60px;
+    max-height: calc(100dvh - 82px);
+    overflow-y: auto;
+  }
+
+  .hero {
+    gap: 28px;
+    padding: 44px 18px 54px;
+  }
+
+  .hero h1,
+  .page-hero h1,
+  .detail-copy h1 {
+    font-size: clamp(54px, 15vw, 76px);
+    line-height: .9;
+    overflow-wrap: anywhere;
+  }
+
+  .hero-text,
+  .page-hero p {
+    font-size: 15px;
+  }
+
+  .hero-visual {
+    height: clamp(260px, 78vw, 390px);
+    border-radius: 22px;
+  }
+
+  .hero-badge {
+    right: 18px;
+    bottom: 18px;
+    width: 94px;
+    height: 94px;
+    font-size: 20px;
+  }
+
+  .hero-badge span {
+    font-size: 14px;
+  }
+
+  .section,
+  .page-hero,
+  .detail-hero,
+  .visit-cta-inner {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  .section {
+    padding-top: 58px;
+    padding-bottom: 58px;
+  }
+
+  .page-hero {
+    padding-top: 64px;
+    padding-bottom: 48px;
+  }
+
+  .split-heading,
+  .featured-grid,
+  .games-grid,
+  .occasion-grid,
+  .values,
+  .contact-grid,
+  .visit-grid,
+  .info-strip,
+  .highlight-grid,
+  .food-stalls-grid,
+  .home-food-cards {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .section-heading,
+  .section-heading-row {
+    align-items: flex-start;
+    gap: 14px;
+  }
+
+  .section-heading h2,
+  .split-heading h2,
+  .detail-content h2,
+  .story-copy h2,
+  .contact-note h2 {
+    font-size: clamp(42px, 12vw, 64px);
+    line-height: .92;
+  }
+
+  .experience-image,
+  .game-image {
+    height: clamp(220px, 68vw, 300px);
+  }
+
+  .hero-actions .btn {
+    min-height: 46px;
+    padding: 12px 16px;
+  }
+
+  .hero-stats {
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .hero-stats strong {
+    font-size: clamp(24px, 7vw, 30px);
+  }
+
+  .mini-stats {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .detail-hero {
+    gap: 30px;
+    padding-top: 42px;
+    padding-bottom: 54px;
+  }
+
+  .detail-image {
+    height: clamp(240px, 72vw, 360px);
+  }
+
+  .detail-price {
+    font-size: 46px;
+  }
+
+  .detail-card,
+  .contact-card,
+  .visit-card,
+  .value {
+    padding: 20px;
+  }
+
+  .event-panel {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .event-image {
+    min-height: 210px;
+  }
+
+  .event-copy {
+    padding: 24px 20px;
+  }
+
+  .event-copy h2,
+  .checklist h2,
+  .safety-note h2 {
+    font-size: clamp(42px, 12vw, 58px);
+    line-height: .92;
+  }
+
+  .checklist {
+    gap: 24px;
+  }
+
+  .info-strip > div {
+    border-right: 0;
+    border-top: 1px solid var(--line);
+    padding: 22px 8px;
+  }
+
+  .info-strip > div:first-child {
+    border-top: 0;
+  }
+
+  .info-strip > div:last-child {
+    grid-column: auto;
+  }
+
+  .faq-list summary {
+    gap: 12px;
+    font-size: 25px;
+  }
+
+  .safety-note,
+  .contact-note {
+    margin: 0 14px 46px;
+    padding: 24px 20px;
+    border-radius: 18px;
+  }
+
+  .visit-cta-inner {
+    padding-top: 66px;
+    padding-bottom: 66px;
+  }
+
+  .visit-cta h2,
+  .dark-band h2 {
+    font-size: clamp(56px, 15vw, 76px);
+    line-height: .9;
+  }
+
+  .food-hero {
+    min-height: 540px;
+  }
+
+  .food-hero-content {
+    width: calc(100% - 36px);
+    padding-top: 76px;
+    padding-bottom: 50px;
+  }
+
+  .food-hero h1 {
+    font-size: clamp(54px, 15vw, 72px);
+  }
+
+  .food-hero-stats {
+    gap: 16px;
+  }
+
+  .food-hero-stats strong {
+    font-size: 30px;
+  }
+
+  .food-visit-strip,
+  .home-food-bottom {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .home-food-bottom div {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .footer-main {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 28px 18px;
+    padding: 44px 18px;
+  }
+
+  .footer-main > div:first-child,
+  .footer-col:last-child {
+    grid-column: 1 / -1;
+  }
+
+  .footer-col span,
+  .footer-bottom span {
+    overflow-wrap: anywhere;
+  }
+
+  .footer-bottom {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 8px;
+    padding: 16px 18px 22px;
+    letter-spacing: .04em;
+  }
+
+  .safety-note {
+    margin-bottom: 46px;
+  }
+}
+
+@media (max-width: 380px) {
+  .announcement {
+    font-size: 7px;
+  }
+
+  .hero h1,
+  .page-hero h1,
+  .detail-copy h1 {
+    font-size: 52px;
+  }
+
+  .hero-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .hero-actions .btn {
+    width: 100%;
+  }
+
+  .theme-toggle {
+    margin-right: 2px;
+  }
+}

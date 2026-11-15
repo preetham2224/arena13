@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a0a0b">
+  <script>
+    (function () {
+      if (localStorage.getItem('arena13-theme') === 'light') document.documentElement.dataset.theme = 'light';
+    }());
+  </script>
+  <meta name="description" content="ARENA 13 brings together fast-paced racing, energetic activities and family-friendly experiences under one roof. Pick what excites you, check the price, and make your way to the arena.">
+  <title>Activities & Prices | ARENA 13 Funzone</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/css/style.css">
+  
+</head>
+<body>
+  <div class="announcement"><span>ARENA 13</span> • WALK IN & PLAY • ONLINE BOOKING COMING SOON</div>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="ARENA 13 home">
+      <span class="brand-mark">13</span>
+      <span><strong>ARENA</strong><small>FUNZONE</small></span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="/activities">Activities</a>
+      <a href="/eat">Eat & Chill</a>
+      <a href="/about">About</a>
+      <a href="/events">Groups & Events</a>
+      <a href="/visit">Plan Your Visit</a>
+      <a href="/contact">Contact</a>
+      <a class="nav-cta" href="/activities">EXPLORE GAMES <span>↗</span></a>
+    </nav>
+    <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to light theme" aria-pressed="false"><span class="theme-toggle-icon" aria-hidden="true">☼</span><span class="theme-toggle-label">LIGHT</span></button>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">☰</button>
+  </header>
+
+  <main>
+<section class="page-hero"><div class="eyebrow">THE FUN STARTS HERE</div><h1>ALL <span>ACTIVITIES.</span></h1><p>Explore every ARENA 13 experience, see the listed price and open the activity page for more information.</p></section>
+<section class="section activities-list">
+  <div class="filter-row"><button class="filter active" data-filter="all">All</button><button class="filter" data-filter="Racing">Racing</button><button class="filter" data-filter="Adventure">Adventure</button><button class="filter" data-filter="Family">Family</button><button class="filter" data-filter="Challenge">Challenge</button><button class="filter" data-filter="Fun">Fun</button><button class="filter" data-filter="Kids">Kids</button></div>
+  <div class="games-grid" id="gameGrid"><article class="game-card" data-category="Racing"><a class="game-image image-slot" href="/games/single-seater-go-karting">
+    <img
+        src="/static/images/games/single-seater-go-karting.jpg"
+        alt="Single Seater Go Karting"
+    >
+    <b>₹350<small>/ kart</small></b>
+</a><div class="game-body"><div class="game-meta"><span>Racing</span><span>15 min</span></div><h3>Single Seater Go Karting</h3><p>Take on the track in your own kart. Seven laps of fast turns, friendly competition and pure racing fun.</p><div class="game-footer"><strong>₹350</strong><a class="card-link" href="/games/single-seater-go-karting">VIEW DETAILS ↗</a></div></div></article><article class="game-card" data-category="Racing"><a class="game-image image-slot" href="/games/duo-seater-go-karting">
+    <img
+        src="/static/images/games/duo-seater-go-karting.jpg"
+        alt="Duo Seater Go Karting"
+    >
+    <b>₹600<small>/ kart</small></b>
+</a><div class="game-body"><div class="game-meta"><span>Racing</span><span>15 min</span></div><h3>Duo Seater Go Karting</h3><p>Share the track in a two-seater kart. Perfect for friends, siblings and a fun head-to-head outing.</p><div class="game-footer"><strong>₹600</strong><a class="card-link" href="/games/duo-seater-go-karting">VIEW DETAILS ↗</a></div></div></article><article class="game-card" data-category="Adventure"><a class="game-image image-slot" href="/games/bungee-trampoline">
+    <img
+        src="/static/images/games/bungee-trampoline.jpg"
+        alt="Bungee Trampoline"
+    >
+    <b>₹150<small>/ person</small></b>
+</a><div class="game-body"><div class="game-meta"><span>Adventure</span><span>15 min</span></div><h3>Bungee Trampoline</h3><p>Bounce, flip and reach new heights with a bungee-assisted trampoline experience.</p><div class="game-footer"><strong>₹150</strong><a class="card-link" href="/games/bungee-trampoline">VIEW DETAILS ↗</a></div></div></article><article class="game-card" data-category="Family"><a class="game-image image-slot" href="/games/jungle-safari">
+    <img
+        src="/static/images/games/jungle-safari.jpg"
+        alt="Jungle Safari"
+    >
+    <b>₹70<small>/ person</small></b>
+</a><div class="game-body"><div class="game-meta"><span>Family</span><span>15 min</span></div><h3>Jungle Safari</h3><p>A family-friendly safari-style ride filled with themed scenery and playful adventure.</p><div class="game-footer"><strong>₹70</strong><a class="card-link" href="/games/jungle-safari">VIEW DETAILS ↗</a></div></div></article><article class="game-card" data-category="Adventure"><a class="game-image image-slot" href="/games/meltdown-bouncy">
+    <img
+        src="/static/images/games/meltdown-bouncy.jpg"
+        alt="Meltdown Bouncy"
+    >
+    <b>₹70<small>/ person</small></b>
+</a><div class="game-body"><div class="game-meta"><span>Adventure</span><span>15 min</span></div><h3>Meltdown Bouncy</h3><p>Take on a lively bouncy challenge and keep your balance while the fun gets chaotic.</p><div class="game-footer"><strong>₹70</strong><a class="card-link" href="/games/meltdown-bouncy">VIEW DETAILS ↗</a></div></div></article><article class="game-card" data-category="Family"><a class="game-image image-slot" href="/games/sliding-bouncy">
+    <img
+        src="/static/images/games/sliding-bouncy.jpg"
+        alt="Sliding Bouncy"
+    >
+    <b>₹70<small>/ person</small></b>
+</a><div class="game-body"><div class="game-meta"><span>Family</span><span>15 min</span></div><h3>Sliding Bouncy</h3><p>A playful slide-and-bounce activity designed for energetic fun and quick repeat rounds.</p><div class="game-footer"><strong>₹70</strong><a class="card-link" href="/games/sliding-bouncy">VIEW DETAILS ↗</a></div></div></article><article class="game-card" data-category="Challenge"><a class="game-image image-slot" href="/games/hammer">
+    <img
+        src="/static/images/games/hammer.jpg"
+        alt="Hammer"
+    >
+    <b>₹100<small>/ person</small></b>
+</a><div class="game-body"><div class="game-meta"><span>Challenge</span><span>10 min</span></div><h3>Hammer</h3><p>Test your timing and strength with the classic hammer challenge. Aim for the best score.</p><div class="game-footer"><strong>₹100</strong><a class="card-link" href="/games/hammer">VIEW DETAILS ↗</a></div></div></article><article class="game-card" data-category="Fun"><a class="game-image image-slot" href="/games/pink-date">
+    <img
+        src="/static/images/games/pink-date.jpg"
+        alt="Pink Date"
+    >
+    <b>₹100<small>/ person</small></b>
+</a><div class="game-body"><div class="game-meta"><span>Fun</span><span>15 min</span></div><h3>Pink Date</h3><p>A colourful interactive challenge made for friends, couples and memorable photo moments.</p><div class="game-footer"><strong>₹100</strong><a class="card-link" href="/games/pink-date">VIEW DETAILS ↗</a></div></div></article><article class="game-card" data-category="Kids"><a class="game-image image-slot" href="/games/kids-car-racing-simulation">
+    <img
+        src="/static/images/games/kids-car-racing-simulation.jpg"
+        alt="Kids Car Racing Simulation"
+    >
+    <b>₹100<small>/ person</small></b>
+</a><div class="game-body"><div class="game-meta"><span>Kids</span><span>15 min</span></div><h3>Kids Car Racing Simulation</h3><p>A kid-friendly racing simulator where young drivers can enjoy a safe virtual speed challenge.</p><div class="game-footer"><strong>₹100</strong><a class="card-link" href="/games/kids-car-racing-simulation">VIEW DETAILS ↗</a></div></div></article><article class="game-card" data-category="Kids"><a class="game-image image-slot" href="/games/kids-bike-racing-simulation">
+    <img
+        src="/static/images/games/kids-bike-racing-simulation.jpg"
+        alt="Kids Bike Racing Simulation"
+    >
+    <b>₹100<small>/ person</small></b>
+</a><div class="game-body"><div class="game-meta"><span>Kids</span><span>15 min</span></div><h3>Kids Bike Racing Simulation</h3><p>Hop on a virtual bike and race through an exciting simulator experience for kids.</p><div class="game-footer"><strong>₹100</strong><a class="card-link" href="/games/kids-bike-racing-simulation">VIEW DETAILS ↗</a></div></div></article><article class="game-card" data-category="Arcade"><a class="game-image image-slot" href="/games/icube-game-iphone-duo">
+    <img
+        src="/static/images/games/icube-game-iphone-duo.jpg"
+        alt="iCube Game (iPhone Duo)"
+    >
+    <b>₹150<small>/ person</small></b>
+</a><div class="game-body"><div class="game-meta"><span>Arcade</span><span>15 min</span></div><h3>iCube Game (iPhone Duo)</h3><p>Team up for a lively two-player iCube challenge with quick reactions, bright visuals and friendly competition.</p><div class="game-footer"><strong>₹150</strong><a class="card-link" href="/games/icube-game-iphone-duo">VIEW DETAILS ↗</a></div></div></article><article class="game-card" data-category="Kids"><a class="game-image image-slot" href="/games/frog-jump">
+    <img
+        src="/static/images/games/frog-jump.jpg"
+        alt="Frog Jump"
+    >
+    <b>₹80<small>/ person</small></b>
+</a><div class="game-body"><div class="game-meta"><span>Kids</span><span>10 min</span></div><h3>Frog Jump</h3><p>Time every jump perfectly and help your frog hop its way to a high score.</p><div class="game-footer"><strong>₹80</strong><a class="card-link" href="/games/frog-jump">VIEW DETAILS ↗</a></div></div></article><article class="game-card" data-category="Adventure"><a class="game-image image-slot" href="/games/solar-space-chair">
+    <img
+        src="/static/images/games/solar-space-chair.jpg"
+        alt="Solar Space Chair"
+    >
+    <b>₹120<small>/ person</small></b>
+</a><div class="game-body"><div class="game-meta"><span>Adventure</span><span>10 min</span></div><h3>Solar Space Chair</h3><p>Settle into a space-themed motion chair ride with immersive movement and cosmic visuals.</p><div class="game-footer"><strong>₹120</strong><a class="card-link" href="/games/solar-space-chair">VIEW DETAILS ↗</a></div></div></article><article class="game-card" data-category="Kids"><a class="game-image image-slot" href="/games/rainbow-ball">
+    <img
+        src="/static/images/games/rainbow-ball.jpg"
+        alt="Rainbow Ball"
+    >
+    <b>₹80<small>/ person</small></b>
+</a><div class="game-body"><div class="game-meta"><span>Kids</span><span>10 min</span></div><h3>Rainbow Ball</h3><p>A bright, colourful ball game packed with simple challenges and cheerful family fun.</p><div class="game-footer"><strong>₹80</strong><a class="card-link" href="/games/rainbow-ball">VIEW DETAILS ↗</a></div></div></article><article class="game-card" data-category="Racing"><a class="game-image image-slot" href="/games/super-bikes">
+    <img
+        src="/static/images/games/super-bikes.jpg"
+        alt="Super Bikes"
+    >
+    <b>₹150<small>/ person</small></b>
+</a><div class="game-body"><div class="game-meta"><span>Racing</span><span>15 min</span></div><h3>Super Bikes</h3><p>Lean into thrilling virtual bike races, sharp turns and high-speed track action.</p><div class="game-footer"><strong>₹150</strong><a class="card-link" href="/games/super-bikes">VIEW DETAILS ↗</a></div></div></article><article class="game-card" data-category="Fun"><a class="game-image image-slot" href="/games/happy-childhood">
+    <img
+        src="/static/images/games/happy-childhood.jpg"
+        alt="Happy Childhood"
+    >
+    <b>₹100<small>/ person</small></b>
+</a><div class="game-body"><div class="game-meta"><span>Fun</span><span>15 min</span></div><h3>Happy Childhood</h3><p>Relive playful childhood moments with a cheerful, interactive experience made for sharing smiles.</p><div class="game-footer"><strong>₹100</strong><a class="card-link" href="/games/happy-childhood">VIEW DETAILS ↗</a></div></div></article><article class="game-card" data-category="Adventure"><a class="game-image image-slot" href="/games/zombie-runway">
+    <img
+        src="/static/images/games/zombie-runway.jpg"
+        alt="Zombie Runway"
+    >
+    <b>₹120<small>/ person</small></b>
+</a><div class="game-body"><div class="game-meta"><span>Adventure</span><span>10 min</span></div><h3>Zombie Runway</h3><p>Dodge spooky surprises and race through a zombie-themed runway challenge.</p><div class="game-footer"><strong>₹120</strong><a class="card-link" href="/games/zombie-runway">VIEW DETAILS ↗</a></div></div></article><article class="game-card" data-category="Challenge"><a class="game-image image-slot" href="/games/boxer">
+    <img
+        src="/static/images/games/boxer.jpg"
+        alt="Boxer"
+    >
+    <b>₹100<small>/ person</small></b>
+</a><div class="game-body"><div class="game-meta"><span>Challenge</span><span>10 min</span></div><h3>Boxer</h3><p>Step up, throw your best punch and chase the top score in this classic boxing challenge.</p><div class="game-footer"><strong>₹100</strong><a class="card-link" href="/games/boxer">VIEW DETAILS ↗</a></div></div></article><article class="game-card" data-category="Kids"><a class="game-image image-slot" href="/games/funtastic-doll">
+    <img
+        src="/static/images/games/funtastic-doll.jpg"
+        alt="Funtastic Doll"
+    >
+    <b>₹80<small>/ person</small></b>
+</a><div class="game-body"><div class="game-meta"><span>Kids</span><span>10 min</span></div><h3>Funtastic Doll</h3><p>A delightful doll-themed activity with playful interaction for little guests.</p><div class="game-footer"><strong>₹80</strong><a class="card-link" href="/games/funtastic-doll">VIEW DETAILS ↗</a></div></div></article><article class="game-card" data-category="Kids"><a class="game-image image-slot" href="/games/funtastic-key-bunch">
+    <img
+        src="/static/images/games/funtastic-key-bunch.jpg"
+        alt="Funtastic Key Bunch"
+    >
+    <b>₹80<small>/ person</small></b>
+</a><div class="game-body"><div class="game-meta"><span>Kids</span><span>10 min</span></div><h3>Funtastic Key Bunch</h3><p>Find, match and collect the right keys in this quick, hands-on challenge.</p><div class="game-footer"><strong>₹80</strong><a class="card-link" href="/games/funtastic-key-bunch">VIEW DETAILS ↗</a></div></div></article><article class="game-card" data-category="Fun"><a class="game-image image-slot" href="/games/crazy-squirting">
+    <img
+        src="/static/images/games/crazy-squirting.jpg"
+        alt="Crazy Squirting"
+    >
+    <b>₹100<small>/ person</small></b>
+</a><div class="game-body"><div class="game-meta"><span>Fun</span><span>10 min</span></div><h3>Crazy Squirting</h3><p>Grab a water blaster and aim for targets in a splashy, fast-paced game.</p><div class="game-footer"><strong>₹100</strong><a class="card-link" href="/games/crazy-squirting">VIEW DETAILS ↗</a></div></div></article><article class="game-card" data-category="VR"><a class="game-image image-slot" href="/games/vr-roller-coaster">
+    <img
+        src="/static/images/games/vr-roller-coaster.jpg"
+        alt="VR Roller Coaster"
+    >
+    <b>₹150<small>/ person</small></b>
+</a><div class="game-body"><div class="game-meta"><span>VR</span><span>10 min</span></div><h3>VR Roller Coaster</h3><p>Strap in for a virtual roller-coaster adventure with dramatic drops, twists and turns.</p><div class="game-footer"><strong>₹150</strong><a class="card-link" href="/games/vr-roller-coaster">VIEW DETAILS ↗</a></div></div></article><article class="game-card" data-category="Sports"><a class="game-image image-slot" href="/games/basketball">
+    <img
+        src="/static/images/games/basketball.jpg"
+        alt="Basketball"
+    >
+    <b>₹100<small>/ person</small></b>
+</a><div class="game-body"><div class="game-meta"><span>Sports</span><span>10 min</span></div><h3>Basketball</h3><p>Shoot hoops against the clock and see how many baskets you can score.</p><div class="game-footer"><strong>₹100</strong><a class="card-link" href="/games/basketball">VIEW DETAILS ↗</a></div></div></article><article class="game-card" data-category="Family"><a class="game-image image-slot" href="/games/boat-ride">
+    <img
+        src="/static/images/games/boat-ride.jpg"
+        alt="Boat Ride"
+    >
+    <b>₹120<small>/ person</small></b>
+</a><div class="game-body"><div class="game-meta"><span>Family</span><span>15 min</span></div><h3>Boat Ride</h3><p>Enjoy a gentle themed boat ride made for families and relaxed fun together.</p><div class="game-footer"><strong>₹120</strong><a class="card-link" href="/games/boat-ride">VIEW DETAILS ↗</a></div></div></article><article class="game-card" data-category="Racing"><a class="game-image image-slot" href="/games/multiplayer-car-race">
+    <img
+        src="/static/images/games/multiplayer-car-race.jpg"
+        alt="Multiplayer Car Race"
+    >
+    <b>₹150<small>/ person</small></b>
+</a><div class="game-body"><div class="game-meta"><span>Racing</span><span>15 min</span></div><h3>Multiplayer Car Race</h3><p>Race friends side by side in a multiplayer driving challenge where every lap counts.</p><div class="game-footer"><strong>₹150</strong><a class="card-link" href="/games/multiplayer-car-race">VIEW DETAILS ↗</a></div></div></article><article class="game-card" data-category="Arcade"><a class="game-image image-slot" href="/games/multiplayer-sniper-shot">
+    <img
+        src="/static/images/games/multiplayer-sniper-shot.jpg"
+        alt="Multiplayer Sniper Shot"
+    >
+    <b>₹150<small>/ person</small></b>
+</a><div class="game-body"><div class="game-meta"><span>Arcade</span><span>15 min</span></div><h3>Multiplayer Sniper Shot</h3><p>Take aim in a multiplayer target-shooting game and compete for the highest score.</p><div class="game-footer"><strong>₹150</strong><a class="card-link" href="/games/multiplayer-sniper-shot">VIEW DETAILS ↗</a></div></div></article></div>
+</section>
+<section class="section info-strip"><div><span>01</span><strong>Pick an activity</strong><p>Start with the experience that fits your group.</p></div><div><span>02</span><strong>Check the price</strong><p>Each activity page shows the current listed ticket price.</p></div><div><span>03</span><strong>Visit the arena</strong><p>Online booking is coming later. For now, tickets are purchased at the venue.</p></div></section>
+</main>
+
+  <footer class="site-footer">
+    <div class="footer-main">
+      <div>
+        <div class="footer-brand">ARENA 13 <span>FUNZONE</span></div>
+        <p>Race. Jump. Challenge. Repeat.</p>
+      </div>
+      <div class="footer-col"><strong>Explore</strong><a href="/activities">Activities</a><a href="/about">About us</a><a href="/events">Groups & events</a></div>
+      <div class="footer-col"><strong>Plan</strong><a href="/visit">Plan your visit</a><a href="/faq">FAQs</a><a href="/contact">Contact</a></div>
+      <div class="footer-col"><strong>Visit</strong><span>11:00 AM – 9:00 PM</span><span>Add your complete venue address before launch.</span><span>8105232497</span></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 ARENA 13 Funzone</span><span>Online booking is a future feature.</span></div>
+  </footer>
+  <script src="/static/js/app.js"></script>
+  
+</body>
+</html>
